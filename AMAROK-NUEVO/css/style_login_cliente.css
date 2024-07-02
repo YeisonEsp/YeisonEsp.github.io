@@ -1,0 +1,19 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: url(../images/capacitacion.png);
+    image-rendering: optimizeQuality;
+    background-size: cover;
+    opacity: 0.8;
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }

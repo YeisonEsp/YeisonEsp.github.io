@@ -1,0 +1,154 @@
+/* CARRITO DE COMPRAS */
+
+.contenedor-tabla-venta {
+    padding: 100px;
+}
+
+.tabla-productos-selecionados thead tr th {
+    border-color: #454d55;
+    border: 2px solid #454d55;
+    text-align: center;
+}
+
+.tabla-productos-selecionados tbody tr td {
+    border: 2px solid white;
+    text-align: center;   
+}
+
+.tabla-productos-selecionados {
+    background-color: #87CEFA;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+.encabezado-tabla tr th{
+    color: white;
+    background-color: #343a40;
+}
+
+.cuerpo-tabla tr td{
+    background-color: #333;
+    color: aliceblue;
+}
+
+.producto-img {
+    width: 250px;
+    height: 160px;
+    padding: 5px;
+    text-align: left !important;
+}
+
+.nombre-producto-tabla {
+    font-size: 30px;
+}
+
+.cantidad-producto-tabla {
+    font-size: 30px;
+}
+
+.aumentar-producto-tabla, .disminuir-producto-tabla {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.rea-ven {
+    padding-top: 2px;
+    margin-top: 20px;
+    height: 40px;
+}
+
+/* COMPRAS DEL CLIENTE */
+
+.tlo {
+    padding-top: 50px;
+}
+
+.datos-producto-tabla {
+    font-size: 23px;
+}
+
+/* PERFIL DEL CLIENTE */ 
+
+.form-group {
+    z-index: 3;
+}
+
+.form-group label{
+    width: 200px;
+    color: #212529;
+    font-weight: bold;
+}
+
+.btn-success, .btn-warning {
+    color: black;
+    font-weight: bold;
+}
+
+/* COMPRA DEL CLIENTE */ 
+
+.titulo {
+    color: goldenrod;
+    margin-bottom: 20px;
+}
+
+hr {
+    background: aliceblue;
+    width: 95%;
+}
+
+.contenedor-envio {
+    margin-top: 85px;
+    margin-left: 80px;
+}
+
+.seccion-entrega {
+    display: flex;
+    gap: 2rem;
+}
+
+.contenedor-envio input {
+    height: 20px;
+    width: 20px;
+    border: 5px solid;
+}
+
+.contenedor-envio label, .p {
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.contenedor-envio-tienda {
+    padding-right: 10px;
+    border-right: 2px solid aliceblue;
+}
+
+.encabezado-tabla tr th {
+    font-size: 15px;
+}
+
+.cuerpo-tabla tr td {
+    font-size: 20px;
+}
+
+.p {
+    padding-right: 25px;
+    border-right: 2px solid aliceblue;
+    margin: 0;
+}
+
+select {
+    width: 60px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.boton-ingresar-datos {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color: goldenrod;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2px 4px 2px 4px;
+}
+

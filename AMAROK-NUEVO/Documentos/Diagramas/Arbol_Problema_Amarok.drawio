@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" modified="2023-10-06T17:17:35.327Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="BDe2dFYDyVvZYqSaM3fz" version="22.0.3" type="device">
+  <diagram name="Página-1" id="GxcSazxnQBg-8qv68HjR">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.193;exitY=-0.008;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-2" target="BUZ_yr5KkT7d06diR3AI-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.435;exitY=-0.008;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-2" target="BUZ_yr5KkT7d06diR3AI-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-2" target="BUZ_yr5KkT7d06diR3AI-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.935;exitY=-0.008;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-2" target="BUZ_yr5KkT7d06diR3AI-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-2" value="&lt;font style=&quot;font-size: 27px;&quot;&gt;Deficiencia en la gestión de la información en los procesos de Gestión de Proveedores y Facturación.&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="44" y="340" width="740" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-3" target="BUZ_yr5KkT7d06diR3AI-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-3" value="Facturación manual" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-4" target="BUZ_yr5KkT7d06diR3AI-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-4" value="Planeación presupuestal inadecuada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry y="620" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-5" target="BUZ_yr5KkT7d06diR3AI-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-5" value="Poca visión tecnológica" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="620" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-9" target="BUZ_yr5KkT7d06diR3AI-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-9" value="Mala logística en el almacenamiento de la información" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="314" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-12" target="BUZ_yr5KkT7d06diR3AI-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-12" value="Desorden de archivos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="334" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-16" target="BUZ_yr5KkT7d06diR3AI-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-16" value="Deficiente gestión de la información de los clientes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="540" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-17" target="BUZ_yr5KkT7d06diR3AI-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-17" value="Falta de control&amp;nbsp; en las compras de los clientes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="500" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-20" target="BUZ_yr5KkT7d06diR3AI-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-20" value="Baja perfilación de los clientes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="620" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-27" target="BUZ_yr5KkT7d06diR3AI-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-27" value="Dificultad en la&amp;nbsp; accesibilidad a la información" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-29" target="BUZ_yr5KkT7d06diR3AI-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-29" value="Pérdida de documentos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="234" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-31" target="BUZ_yr5KkT7d06diR3AI-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-31" value="Inexistencia en la fidelización de clientes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="BUZ_yr5KkT7d06diR3AI-33" target="BUZ_yr5KkT7d06diR3AI-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-33" value="Retraso en la venta" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="710" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-35" value="Clientes insatisfechos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="590" y="130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BUZ_yr5KkT7d06diR3AI-40" value="Estrés laboral" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;glass=0;shadow=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NzD0lDfuYMpgpycuWaIy-1" value="LA CASA DE LA AMAROK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#994C00;" vertex="1" parent="1">
+          <mxGeometry x="260" y="50" width="320" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
