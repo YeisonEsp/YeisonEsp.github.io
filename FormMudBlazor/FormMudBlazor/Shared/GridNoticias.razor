@@ -1,0 +1,108 @@
+﻿@using FormMudBlazor.Models
+
+
+<MudGrid Spacing="@Spacing" Justify="Justify.Center">
+    @foreach (var item in Noticias)
+    {
+        <MudItem>
+            <div style="width: 276px; height: auto; border: 0.5px solid silver;
+                    padding: 10px;">
+                <MudImage Src="@item.Src" Width="253" Height="253"
+                          Alt="@item.Alt" Elevation="0" Class="rounded-lg" />
+                <p style="font-weight: bold; margin-top: 5px !important; font-size: 15px">@item.Titulo</p>
+                <p class="pnoticias">Subtítulo: @item.Subtitulo</p>
+                <p class="pnoticias">Subtítulo: @item.Categoria</p>
+                <p class="pnoticias">Subtítulo: @item.Lanzamiento.ToString("g")</p>
+            </div>
+            
+        </MudItem>
+    }
+</MudGrid>
+
+<style>
+    .pnoticias {
+        font-size: 14px;
+        margin-top: -20px;
+    }
+</style>
+
+@code {
+    public int Spacing { get; set; } = 4;
+
+    List<NoticiaItem> Noticias = new List<NoticiaItem>
+{
+        new NoticiaItem
+        {
+            Src = "/images/cdtdegas2.jpg",
+            Alt = "Noticia con Metrología",
+            Titulo = "Noticia con Metrología",
+            Subtitulo = "Subtítulo de ejemplo",
+            Categoria = "Categoría...",
+            Lanzamiento = DateTime.Now
+        },
+        new NoticiaItem
+        {
+            Src = "/images/cdtdegas3.png",
+            Alt = "Noticia con Medidores de presión",
+            Titulo = "Noticia con Medidores de presión",
+            Subtitulo = "Subtítulo de ejemplo",
+            Categoria = "Categoría...",
+            Lanzamiento = DateTime.Now
+        },
+        new NoticiaItem
+        {
+            Src = "/images/cdtdegas2.jpg",
+            Alt = "Noticia con implementos",
+            Titulo = "Noticia con implementos",
+            Subtitulo = "Subtítulo de ejemplo",
+            Categoria = "Categoría...",
+            Lanzamiento = DateTime.Now
+
+        },
+        new NoticiaItem
+        {
+            Src = "/images/cdtdegas.png",
+            Alt = "Noticia de ejemplo",
+            Titulo = "Noticia de ejemplo",
+            Subtitulo = "Subtítulo de ejemplo",
+            Categoria = "Categoría...",
+            Lanzamiento = DateTime.Now
+        },
+        new NoticiaItem
+        {
+            Src = "/images/cdtdegas2.jpg",
+            Alt = "Noticia con Metrogas",
+            Titulo = "Noticia con Metrogas",
+            Subtitulo = "Subtítulo de ejemplo",
+            Categoria = "Categoría...",
+            Lanzamiento = DateTime.Now
+        },
+        new NoticiaItem
+        {
+            Src = "/images/cdtdegas3.png",
+            Alt = "Noticia con Vanti",
+            Titulo = "Noticia con Vanti",
+            Subtitulo = "Subtítulo de ejemplo",
+            Categoria = "Categoría...",
+            Lanzamiento = DateTime.Now
+        },
+        new NoticiaItem
+        {
+            Src = "/images/cdtdegas2.jpg",
+            Alt = "Noticia del gas",
+            Titulo = "Noticia del gas",
+            Subtitulo = "Subtítulo de ejemplo",
+            Categoria = "Categoría...",
+            Lanzamiento = DateTime.Now
+        },
+        new NoticiaItem
+        {
+            Src = "/images/cdtdegas.png",
+            Alt = "Noticia con los gases",
+            Titulo = "Noticia con los gases",
+            Subtitulo = "Subtítulo de ejemplo",
+            Categoria = "Categoría...",
+            Lanzamiento = DateTime.Now
+        }
+    };
+}

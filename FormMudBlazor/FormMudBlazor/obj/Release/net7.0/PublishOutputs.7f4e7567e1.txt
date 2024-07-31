@@ -1,0 +1,1 @@
+D:\EQ-334\Yeison_ProyectoCDT\MudBlazor\FormMudBlazor\FormMudBlazor\obj\Release\net7.0\browser-wasm\PubTmp\Out\web.config

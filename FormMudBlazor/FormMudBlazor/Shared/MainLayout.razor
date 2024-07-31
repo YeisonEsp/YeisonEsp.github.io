@@ -1,0 +1,16 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <main>
+        <MudThemeProvider />
+        <MudPopoverProvider />
+        <MudDialogProvider />
+        <MudSnackbarProvider />
+        <MenuPrincipal Body="@Body"></MenuPrincipal>
+        <hr class="mx-5 mt-4" />
+        <Footer></Footer>
+        <button onclick="scrollToTop()" id="scrollBtn">
+            <MudIcon Icon="@Icons.Material.Filled.ArrowUpward" />
+        </button>
+    </main>
+</div>

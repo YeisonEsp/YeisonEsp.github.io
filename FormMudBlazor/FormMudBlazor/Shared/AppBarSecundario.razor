@@ -1,0 +1,139 @@
+﻿@inject IDialogService Dialog
+
+<div class="container-fluid" id="appbarsecundario">
+    <MudAppBar Style="background-color: white; color: #0c0c17; padding: 20px 0px; 
+             border-block: none; 
+             z-index: 998; margin-top: 60px; opacity: 0.9; height: 80px;"
+               Fixed="true" Elevation="0">
+
+        <div class="d-flex justify-content-center align-items-center flex-grow-1">
+            <div class="d-none d-lg-flex justify-content-center align-items-center">
+                <!-- Menús normales para pantallas grandes -->
+                <MudMenu FullWidth="true" ActivationEvent="@MouseEvent.MouseOver"
+                         AnchorOrigin="Origin.BottomCenter" TransformOrigin="Origin.TopCenter" Class="ml-20">
+                    <ActivatorContent>
+                        <MudChip T="string" Class="rounded-pill p-lg-3"
+                                 Style="font-size: 16px; text-decoration: none; color: #333; 
+                            background-color: transparent; height: 40px; padding-left: 18px !important ">
+                            SERVICIOS
+                            <MudIcon Icon="@Icons.Material.Outlined.KeyboardArrowDown"
+                                     Size="Size.Large" Style="padding-top: 5px !important;" />
+                        </MudChip>
+                    </ActivatorContent>
+                    <ChildContent>
+                        <MudMenuItem>Profile</MudMenuItem>
+                        <MudMenuItem>Theme</MudMenuItem>
+                        <MudMenuItem>Usage</MudMenuItem>
+                        <MudMenuItem>Sign Out</MudMenuItem>
+                    </ChildContent>
+                </MudMenu>
+
+                <MudMenu FullWidth="true" ActivationEvent="@MouseEvent.MouseOver"
+                         AnchorOrigin="Origin.BottomCenter" TransformOrigin="Origin.TopCenter" Class="ml-4">
+                    <ActivatorContent>
+                        <MudChip T="string" Class="rounded-pill p-lg-3"
+                                 Style="font-size: 16px; text-decoration: none; color: #333; 
+                            background-color: transparent; height: 40px; padding-left: 18px !important ">
+                            TECNOLOGÍA
+                            <MudIcon Icon="@Icons.Material.Outlined.KeyboardArrowDown"
+                                     Size="Size.Large" Style="padding-top: 5px !important;" />
+                        </MudChip>
+                    </ActivatorContent>
+                    <ChildContent>
+                        <MudMenuItem>Profile</MudMenuItem>
+                        <MudMenuItem>Theme</MudMenuItem>
+                        <MudMenuItem>Usage</MudMenuItem>
+                        <MudMenuItem>Sign Out</MudMenuItem>
+                    </ChildContent>
+                </MudMenu>
+
+                <MudMenu FullWidth="true" ActivationEvent="@MouseEvent.MouseOver"
+                         AnchorOrigin="Origin.BottomCenter" TransformOrigin="Origin.TopCenter" Class="ml-4">
+                    <ActivatorContent>
+                        <MudChip T="string" Class="rounded-pill p-lg-3"
+                                 Style="font-size: 16px; text-decoration: none; color: #333; 
+                            background-color: transparent; height: 40px; padding-left: 18px !important ">
+                            MET&FLU
+                            <MudIcon Icon="@Icons.Material.Outlined.KeyboardArrowDown"
+                                     Size="Size.Large" Style="padding-top: 5px !important;" />
+                        </MudChip>
+                    </ActivatorContent>
+                    <ChildContent>
+                        <MudMenuItem>Profile</MudMenuItem>
+                        <MudMenuItem>Theme</MudMenuItem>
+                        <MudMenuItem>Usage</MudMenuItem>
+                        <MudMenuItem>Sign Out</MudMenuItem>
+                    </ChildContent>
+                </MudMenu>
+
+                <MudMenu FullWidth="true" ActivationEvent="@MouseEvent.MouseOver"
+                         AnchorOrigin="Origin.BottomCenter" TransformOrigin="Origin.TopCenter" Class="ml-4">
+                    <ActivatorContent>
+                        <MudChip T="string" Class="rounded-pill p-lg-3"
+                                 Style="font-size: 16px; text-decoration: none; color: #333; 
+                                background-color: transparent; height: 40px; padding-left: 18px !important">
+                            INF.RTE-ESAL
+                            <MudIcon Icon="@Icons.Material.Outlined.KeyboardArrowDown"
+                                     Size="Size.Large" Style="padding-top: 5px !important;" />
+                        </MudChip>
+                    </ActivatorContent>
+                    <ChildContent>
+                        <MudMenuItem>Profile</MudMenuItem>
+                        <MudMenuItem>Theme</MudMenuItem>
+                        <MudMenuItem>Usage</MudMenuItem>
+                        <MudMenuItem>Sign Out</MudMenuItem>
+                    </ChildContent>
+                </MudMenu>
+            </div>
+        </div>
+
+
+
+        <!-- Botón de hamburguesa para pantallas pequeñas -->
+        <div class="d-lg-none ml-auto" style="margin-right: 12px;">
+            <MudIconButton OnClick="@(() => OpenDialogAsync(_fullScreen))" 
+                           Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" 
+                           Edge="Edge.End">Full Screen Dialog</MudIconButton>
+        </div>
+    </MudAppBar>
+</div>
+
+<style>
+    .rounded-pill:hover {
+        background-color: rgb(10, 28, 83) !important;
+        color: whitesmoke !important;
+        transition: ease-in-out 0.3s;
+    }
+</style>
+
+<script>
+    window.onscroll = null;
+    window.onscroll = function () { scrollFunction2() };
+
+    function scrollFunction2() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("appbarsecundario").style.display = "none";
+    document.getElementById("scrollBtn").style.display = "block";
+
+        } else {
+            document.getElementById("appbarsecundario").style.display = "block";
+            document.getElementById("scrollBtn").style.display = "none";
+        }
+    }
+
+    function scrollToTop() {
+        document.body.scrollTop = 0; // Para navegadores Safari
+        document.documentElement.scrollTop = 0; // Para otros navegadores
+    }
+</script>
+
+
+@code{
+
+    private readonly DialogOptions _fullScreen = new() { FullScreen = true, CloseButton = true };
+
+    private Task OpenDialogAsync(DialogOptions options)
+    {
+        return Dialog.ShowAsync<Dialog>("", options);
+    }
+}
