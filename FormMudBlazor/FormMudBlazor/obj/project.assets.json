@@ -2289,11 +2289,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EQ-334\\Yeison_ProyectoCDT\\MudBlazor\\FormMudBlazor\\FormMudBlazor\\FormMudBlazor.csproj",
+      "projectUniqueName": "C:\\Users\\EQ-334\\source\\repos\\Github\\YeisonEsp.github.io\\FormMudBlazor\\FormMudBlazor\\FormMudBlazor.csproj",
       "projectName": "FormMudBlazor",
-      "projectPath": "D:\\EQ-334\\Yeison_ProyectoCDT\\MudBlazor\\FormMudBlazor\\FormMudBlazor\\FormMudBlazor.csproj",
+      "projectPath": "C:\\Users\\EQ-334\\source\\repos\\Github\\YeisonEsp.github.io\\FormMudBlazor\\FormMudBlazor\\FormMudBlazor.csproj",
       "packagesPath": "C:\\Users\\EQ-334\\.nuget\\packages\\",
-      "outputPath": "D:\\EQ-334\\Yeison_ProyectoCDT\\MudBlazor\\FormMudBlazor\\FormMudBlazor\\obj\\",
+      "outputPath": "C:\\Users\\EQ-334\\source\\repos\\Github\\YeisonEsp.github.io\\FormMudBlazor\\FormMudBlazor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EQ-334\\AppData\\Roaming\\NuGet\\NuGet.Config",

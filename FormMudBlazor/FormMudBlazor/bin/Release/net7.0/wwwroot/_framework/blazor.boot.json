@@ -1,7 +1,7 @@
 {
   "entryAssembly": "FormMudBlazor",
   "resources": {
-    "hash": "sha256-oCCa9IBpc1nUkFCVI4cztsqM4KeUjqkIKfSf+preTSc=",
+    "hash": "sha256-6/tTw5mzVbwPgmpf9tyXzop+CYbiuHNe2cgkVj+8H90=",
     "runtime": {
       "dotnet.7.0.20.hqs5bjbv9e.js": "sha256-eaJTmow4t8eE7FZMZR5Ja41JMOefGCbIYDTdpclGsac=",
       "dotnet.timezones.blat": "sha256-gbATD5HDsHYtW8vdPYh9iSBY4O5CjvMeCSF5xXWF1xo=",
@@ -207,10 +207,10 @@
       "mscorlib.dll": "sha256-HYyp9hO+GKFyupcEiY1PxtBBXbHzefsO3Q8RiQTaNCA=",
       "netstandard.dll": "sha256-N5CcC3sLzGBesbmeJAp5bwxABN9u7SwkIO5qfFjzoik=",
       "System.Private.CoreLib.dll": "sha256-bJS1DJmhjP7PvegYG+Z8O9EDtRY78HKinA3LUMVLlSQ=",
-      "FormMudBlazor.dll": "sha256-vNv0wZWFXgnb5Ft2QhLybBmf+o5drQpDQ98eOs9XWV0="
+      "FormMudBlazor.dll": "sha256-Bt1wpXZUQr1t7wOMgCF47FPOuqR/EhBGxGRE298q5L8="
     },
     "pdb": {
-      "FormMudBlazor.pdb": "sha256-+dTM0nVi7uAKbh/3WNTLA0AaPCT1tk23qMPtIpMD1TE="
+      "FormMudBlazor.pdb": "sha256-is/yQ9JV94hXvDdDif2zXtRnkJr2uFmr0MNFn4J+AWE="
     },
     "runtimeAssets": {
       "dotnet.wasm": {

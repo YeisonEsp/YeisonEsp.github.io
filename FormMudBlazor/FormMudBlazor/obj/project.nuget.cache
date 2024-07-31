@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aIDYC9/uuGM=",
+  "dgSpecHash": "yn42AVHxq8g=",
   "success": true,
-  "projectFilePath": "D:\\EQ-334\\Yeison_ProyectoCDT\\MudBlazor\\FormMudBlazor\\FormMudBlazor\\FormMudBlazor.csproj",
+  "projectFilePath": "C:\\Users\\EQ-334\\source\\repos\\Github\\YeisonEsp.github.io\\FormMudBlazor\\FormMudBlazor\\FormMudBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EQ-334\\.nuget\\packages\\currietechnologies.razor.sweetalert2\\5.6.0\\currietechnologies.razor.sweetalert2.5.6.0.nupkg.sha512",
     "C:\\Users\\EQ-334\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",

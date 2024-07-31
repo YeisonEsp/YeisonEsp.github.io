@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FormMudBlazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ac8600136117d7347a4ad946d155864c0ae7486")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c26085313f877fd281982594206c63381450afd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("FormMudBlazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FormMudBlazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

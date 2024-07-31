@@ -7,7 +7,7 @@
 -DCORE_BINDINGS
 -DGEN_PINVOKE=1
 -emit-llvm
-"-ID:\EQ-334\Yeison_ProyectoCDT\MudBlazor\FormMudBlazor\FormMudBlazor\obj\Release\net7.0\wasm\for-publish"
+"-IC:\Users\EQ-334\source\repos\Github\YeisonEsp.github.io\FormMudBlazor\FormMudBlazor\obj\Release\net7.0\wasm\for-publish"
 "-IC:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\7.0.20\runtimes\browser-wasm\native\include\mono-2.0"
 "-IC:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\7.0.20\runtimes\browser-wasm\native\include\wasm"
 -g
