@@ -1,0 +1,28 @@
+# Archivos y carpetas generados por el IDE
+.vs/
+*.suo
+*.user
+*.userosscache
+*.suo
+*.tlog
+*.vscode/
+
+# Archivos de compilación y temporales
+bin/
+obj/
+
+# Configuraciones de NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Archivos temporales de Visual Studio
+*.tmp
+*.log
+
+# Archivos generados en la publicación
+publish/
+
+# Archivos de cache
+.cache/
+
